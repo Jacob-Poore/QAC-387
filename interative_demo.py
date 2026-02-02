@@ -6,3 +6,10 @@ print(f'Numbers: {numbers}')
 
 total = sum(numbers)
 print(f'Total: {total}')
+
+print(f'Goodbye, {name}! Happy coding!')
+
+def ask_question():
+    question = input("What is your name? ")
+    return question
+
